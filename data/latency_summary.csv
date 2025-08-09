@@ -1,0 +1,5 @@
+system,metric,seconds
+Baseline,Median,12
+Baseline,p90,25
+GenSecAI-Ops,Median,18
+GenSecAI-Ops,p90,30

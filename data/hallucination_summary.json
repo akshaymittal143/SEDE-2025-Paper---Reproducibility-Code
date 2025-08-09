@@ -1,0 +1,14 @@
+{
+  "baseline_no_rag": {
+    "total": 400,
+    "hallucinations": 72,
+    "grounded": 328,
+    "rate": 0.18
+  },
+  "gensecai_ops": {
+    "total": 400,
+    "hallucinations": 20,
+    "grounded": 380,
+    "rate": 0.05
+  }
+}
