@@ -3,19 +3,24 @@
 [![Python 3.7+](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Conference](https://img.shields.io/badge/Conference-SEDE%202025-green)](https://sede-conference.org/)
-[![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/)
+[![Paper](https://img.shields.io/badge/Paper-Submitted-green)](https://sede-conference.org/)
+[![Status](https://img.shields.io/badge/Status-Final%20Version-brightgreen)](https://github.com/akshaymittal143/SEDE-2025-Paper---Reproducibility-Code)
 
-> 📖 **Paper**: "Enhancing Software Vulnerability Detection through Retrieval-Augmented Generation: A Comprehensive Evaluation"
+> 📖 **Paper**: "GenSecAI-Ops: Integrating Generative AI and RAG for Proactive DevSecOps Security"
 > 
 > 🏛️ **Venue**: 34th International Conference on Software Engineering and Data Engineering (SEDE 2025)
 > 
-> 👥 **Authors**: [Your Name] et al.
+> 👥 **Authors**: Akshay Mittal et al.
+> 
+> ✅ **Status**: **Final submission completed** - All reproducibility artifacts ready
 
 ---
 
 ## 🎯 Abstract
 
-This repository contains all experimental code, data, and reproducibility artifacts for our SEDE 2025 paper on RAG-enhanced vulnerability detection systems. Our work evaluates the effectiveness of Retrieval-Augmented Generation (RAG) approaches for identifying security vulnerabilities in software code, achieving **~82% F1-score** on binary classification tasks.
+This repository contains the **final** experimental code, data, and reproducibility artifacts for our SEDE 2025 paper on the GenSecAI-Ops framework. Our work presents a comprehensive solution for integrating Generative AI and RAG into DevSecOps workflows, achieving **82% F1-score** for vulnerability detection with **<5% hallucination rate** and **91% remediation correctness**.
+
+🎉 **Paper Status**: Final version submitted to SEDE 2025 with all formatting requirements met.
 
 ## 📁 Repository Structure
 
@@ -91,17 +96,18 @@ python scripts/hallucination_eval.py
 
 ### Research Questions
 
-1. **RQ1**: How effective are RAG systems for vulnerability detection compared to traditional methods?
-2. **RQ2**: What is the impact of retrieval parameters (α) on detection performance?
-3. **RQ3**: How do RAG systems perform in terms of computational efficiency and latency?
-4. **RQ4**: What is the extent of hallucination in RAG-based vulnerability detection?
+1. **RQ1**: How can GenSecAI-Ops integrate generative AI across CI/CD pipeline stages for proactive security?
+2. **RQ2**: What is the effectiveness of RAG-grounded agents for vulnerability detection and remediation?
+3. **RQ3**: How does the framework perform in terms of detection accuracy, latency, and developer trust?
+4. **RQ4**: What is the extent of hallucination mitigation through knowledge grounding?
 
 ### Methodology
 
-- **Dataset**: Synthetic vulnerability data with realistic distributions
-- **Evaluation Metrics**: Accuracy, Precision, Recall, F1-Score
-- **Baseline Comparisons**: Traditional ML approaches vs. RAG-enhanced systems
-- **Statistical Analysis**: Bootstrap sampling with 95% confidence intervals
+- **Framework**: GenSecAI-Ops multi-agent architecture with RAG grounding
+- **Pipeline Integration**: GitHub Actions and Jenkins CI/CD implementations  
+- **Knowledge Base**: Cybersecurity Knowledge Graph (CSKG) with NVD, OWASP, MITRE ATT&CK
+- **Evaluation Metrics**: F1-Score, Remediation Correctness, Hallucination Rate, Developer Trust
+- **Statistical Analysis**: Paired t-tests with Holm-Šídák correction (p < 0.01)
 
 ### Key Results
 
@@ -182,14 +188,14 @@ find figures/ -name "*.pdf" -exec shasum {} \;
 If you use this code or data in your research, please cite our paper:
 
 ```bibtex
-@inproceedings{author2025rag,
-  title={Enhancing Software Vulnerability Detection through Retrieval-Augmented Generation: A Comprehensive Evaluation},
-  author={[Your Name] and [Co-authors]},
+@inproceedings{mittal2025gensecai,
+  title={GenSecAI-Ops: Integrating Generative AI and RAG for Proactive DevSecOps Security},
+  author={Akshay Mittal and [Co-authors]},
   booktitle={Proceedings of the 34th International Conference on Software Engineering and Data Engineering},
   series={SEDE '25},
   year={2025},
   publisher={ACM},
-  doi={10.1145/XXXXXX.XXXXXX},
+  note={Final submission - under review},
   url={https://github.com/akshaymittal143/SEDE-2025-Paper---Reproducibility-Code}
 }
 ```
@@ -205,6 +211,7 @@ We welcome contributions to improve reproducibility:
 ## 📧 Contact
 
 - **Primary Author**: akshay.mittal@ieee.org
+- **Repository**: https://github.com/akshaymittal143/SEDE-2025-Paper---Reproducibility-Code
 - **Issues**: Use GitHub Issues for technical problems
 - **Paper Questions**: Contact authors via institutional email
 
